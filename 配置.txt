@@ -1,3 +1,9 @@
+git账号：maxdamowang
+goole邮箱地址：max.damowang@gmail.com
+
+git账号：bigdamowang
+密码;xidada123
+------------------------------------------------------------
 1.
 	git config --global user.name 'bigdamowang'
 2.
@@ -6,9 +12,9 @@
 	git init
 4.
 	git remote add origin https://github.com/bigdamowang/hello-word.git
-5.���صı仯
+5.本地的变化
 	git status
-6.ͬ��
-	git add * �� git commit -m 'first_commit'(������Ч)
-	git push -u origin master(Զ��)
+6.同步
+	git add * 或 git commit -m 'first_commit'(本地生效)
+	git push -u origin master(远端)
 
