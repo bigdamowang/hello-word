@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			header{
+				width: 100%;
+				height: 50px;
+				display: flex;
+				justify-content: space-around;
+				
+			}
+			header span a{
+				color: black;
+			}
+			center{
+				width: 100%;
+				height: 300px;
+			}
+			
+			header span:hover{
+				font-weight: bold;
+			}
+			.center{
+				margin-left: -50%;
+				width: 30%;
+				/*height: 80%;*/
+				display: flex;
+				flex-wrap: nowrap;
+				flex-direction: column;
+				justify-content: center;
+			}
+			.center div{
+				margin-top: 15px;
+				display: flex;
+				flex-wrap: nowrap;
+				justify-content: space-between;
+				height: 32px;
+			}
+			.center div input[type="text"]{
+				width: 100%;
+			}
+		
+			.center div input[type="button"]{
+				width: 50%;
+			}
+			
+			a{
+				text-decoration: none;
+			}
+			footer{
+				margin-top: 200px;
+				width: 100%;
+				height: 30px;
+			}
+			footer p{
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<span><a href="#">100%正品保证</a></span>
+			<span><a href="#">七天无理由退货</a></span>
+			<span><a href="#">退货返运费</a></span>
+		</header>
+		<center>
+			<div class="center">
+				<div><span>欢迎注册</span><span>已注册可<a href="#" style="color: #E066FF;">直接登录</a></span></div>
+				<div><input type="text" placeholder="请输入手机号" /></div>
+				<div><input type="text" placeholder="密码由6-20位字母，数字和符号组合" /></div>
+				<div><input type="text" placeholder="请在次输入上面的密码" /></div>
+				<div>
+					<input type="text" style="width: 50%;" placeholder="短信验证码" />
+					<input type="button" value="获取验证码" style="background: #AAAAAA; border: none;" /></div>
+				<div>
+					<input type="button" value="立即注册" style="background: #FF0000;color: #FFF; border: none;height: 50px;" />
+					<span style="line-height: 32px;margin-right: 10px;margin-top: 10px;"><a href="new.html">通过游戏注册</a></span>
+				</div>
+				<div style="margin-top: 30px;">
+					<input type="checkbox" style="width: 20px;margin-top: 5px;" checked="checked" />
+					<span style="margin-right: 100px;line-height: -32px;">我已阅读并开通服务条款</span>
+				</div>
+			</div>
+		</center>
+		<footer>
+			<p>Copyright 2015&nbsp;&nbsp;All&nbsp;Rights&nbsp;Reserved&nbsp;ICP证&nbsp;:粤&nbsp;B2-20080315</p>
+		</footer>
+	</body>
+</html>
